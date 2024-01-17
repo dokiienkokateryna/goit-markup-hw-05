@@ -572,36 +572,59 @@ img {
 
 .container-subscribe {
   display: flex;
+  margin-left: 80px;
 }
 
 .subscribe-text {
-  color: var(--WHITE, #fff);
-  font-size: 16px;
+  margin-bottom: 16px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 16px;
+  color: #ffffff;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-form-label {
 }
 
 .subscribe-email {
   width: 264px;
   height: 40px;
-  background-color: transparent;
-  border-radius: 4px;
   border: 1px solid var(--WHITE, #fff);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-right: 24px;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #ffffff;
 }
 
 .subscribe-button {
-  display: inline-flex;
-  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  border-radius: 4px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
   border: none;
-  background: var(--IRIS, #4d5ae5);
+  border-radius: 4px;
 }
 
 .subscribe-button-text {
@@ -614,6 +637,7 @@ img {
 }
 
 .subscribe-svg {
+  margin-left: 16px;
 }
 
 .subscribe-icon {
