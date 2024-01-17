@@ -573,6 +573,8 @@ img {
 .container-subscribe {
   display: flex;
   margin-left: 80px;
+  width: 453px;
+  height: 80px;
 }
 
 .subscribe-text {
