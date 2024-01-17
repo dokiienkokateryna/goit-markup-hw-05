@@ -463,13 +463,13 @@
           <div class="container-subscribe">
             <p class="subscribe-text">Subscribe</p>
             <form class="subscribe-form">
-              <label for="user_email" class="subscribe-form-label">
+              <label for="user-email" class="subscribe-form-label">
                 <input
                   class="subscribe-email"
                   type="email"
-                  name="user_email_address"
+                  name="user-email-address"
                   placeholder="E-mail"
-                  id="user_email"
+                  id="user-email"
                 />
               </label>
               <button type="submit" class="subscribe-button">
@@ -482,6 +482,28 @@
           </div>
         </div>
       </footer>
+    </div>
+    <div class="backdrop">
+      <div class="modal">
+        <button type="submit" class="modal-button">
+          <svg class="modal-button-svg" widtt="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <div class="modal-form">
+          <form>
+            <p class="modal-form-text">Name</p>
+            <input
+              class="modal-form-input"
+              type="text"
+              name="user-name"
+              class="modal-name"
+              placeholder=""
+            />
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
