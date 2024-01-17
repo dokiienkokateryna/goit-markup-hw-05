@@ -603,10 +603,15 @@ img {
   padding-left: 16px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  color: #ffffff;
 }
 
-input::placeholder {
-  color: #ffffff;
+::placeholder {
+  color: var(--WHITE, #fff);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
 }
 
 .subscribe-button {
@@ -615,16 +620,10 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  font-family: "Roboto";
 }
 
 .subscribe-button-text {
@@ -634,6 +633,7 @@ input::placeholder {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .subscribe-svg {
