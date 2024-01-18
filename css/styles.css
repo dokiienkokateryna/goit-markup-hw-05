@@ -815,7 +815,10 @@ img {
   margin-right: 8px;
 }
 
-.modal-privacy-input:checked + .modal-privacy-span {
+.modal-container-privacy
+  input:checked
+  + .modal-privacy-label
+  .modal-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
