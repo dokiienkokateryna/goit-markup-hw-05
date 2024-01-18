@@ -729,6 +729,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   display: block;
+  margin-bottom: 4px;
 }
 
 .modal-container-input-svg {
