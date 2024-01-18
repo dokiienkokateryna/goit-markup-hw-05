@@ -492,6 +492,7 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
+
         <form>
           <div class="modal-container-form">
             <label for="user-name" class="modal-form-label">Name</label>
@@ -507,6 +508,7 @@
               </svg>
             </div>
           </div>
+
           <div class="modal-container-form">
             <label for="user-tel" class="modal-form-label">Phone</label>
             <div class="modal-container-input-svg">
@@ -521,13 +523,16 @@
               </svg>
             </div>
           </div>
+
           <div class="modal-container-form">
-            <label for="user-email" class="modal-form-label">Email</label>
+            <label for="user-address-email" class="modal-form-label"
+              >Email</label
+            >
             <div class="modal-container-input-svg">
               <input
-                type="email"
+                type="text"
                 name="user-email"
-                id="user-email"
+                id="user-address-email"
                 class="modal-input"
               />
               <svg class="modal-svg" width="18" height="24">
@@ -538,17 +543,17 @@
 
           <div class="modal-container-comment">
             <label for="user-comment" class="modal-form-label">Comment</label>
-            <div class="modal-container-input-svg">
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                cols="30"
-                rows="10"
-                placeholder="Text input"
-                class="modal-comment-input"
-              ></textarea>
-            </div>
+            <textarea
+              class="modal-comment-textarea"
+              name="user-comment"
+              id="user-comment"
+              cols="30"
+              rows="10"
+              placeholder="Text input"
+              class="modal-comment-input"
+            ></textarea>
           </div>
+
           <div class="modal-container-privacy">
             <input
               type="checkbox"
@@ -566,6 +571,8 @@
               <a href="" class="modal-privacy-link">Privacy Policy</a></label
             >
           </div>
+
+          <button class="modal-last-btn">Send</button>
         </form>
       </div>
     </div>
