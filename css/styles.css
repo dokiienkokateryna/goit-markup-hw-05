@@ -844,6 +844,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  border-radius: 4px;
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
